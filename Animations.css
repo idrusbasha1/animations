@@ -1,0 +1,100 @@
+
+.ani1{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(249, 249, 115);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#one:hover{
+    
+    animation-name: rotateright;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+
+}
+@keyframes rotateright{
+    0%{
+        transform: translateX(0px)rotate(0deg);
+        transition: all 1s ease-in-out 0s;
+    }
+    25%{
+        transform: translateX(100px)rotate(180deg);
+        transition: all 1s ease-in-out 0s;
+    }
+    50%{
+        transform: translateX(200px)rotate(360deg);
+        transition: all 1s ease-in-out 0s;
+    }
+    75%{
+        transform: translateX(100px)rotate(180deg);
+        transition: all 1s ease-in-out 0s;
+    }
+    100%{
+        transform: translateX(0px)rotate(0deg);
+        transition: all 1s ease-in-out 0s;
+    }
+}
+
+#two:hover{
+    
+    animation-name: rotateleft;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+
+}
+@keyframes rotateleft{
+    0%{
+        transform: translateX(0px)rotate(0deg);
+        transition: all 1s ease-in-out 0s;
+    }
+    25%{
+        transform: translateX(-100px)rotate(180deg);
+        transition: all 1s ease-in-out 0s;
+    }
+    50%{
+        transform: translateX(-200px)rotate(360deg);
+        transition: all 1s ease-in-out 0s;
+    }
+    75%{
+        transform: translateX(-100px)rotate(180deg);
+        transition: all 1s ease-in-out 0s;
+    }
+    100%{
+        transform: translateX(0px)rotate(0deg);
+        transition: all 1s ease-in-out 0s;
+    }
+}
+#three:hover{
+    
+    animation-name: rotatedown;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+
+}
+@keyframes rotatedown{
+    0%{
+        transform: translateY(0px)rotate(0deg);
+        transition: all 1s ease-in-out 0s;
+    }
+    25%{
+        transform: translateY(100px)rotate(180deg);
+        transition: all 1s ease-in-out 0s;
+    }
+    50%{
+        transform: translateY(200px)rotate(360deg);
+        transition: all 1s ease-in-out 0s;
+    }
+    75%{
+        transform: translateY(100px)rotate(180deg);
+        transition: all 1s ease-in-out 0s;
+    }
+    100%{
+        transform: translateY(0px)rotate(0deg);
+        transition: all 1s ease-in-out 0s;
+    }
+}
